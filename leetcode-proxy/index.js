@@ -7,8 +7,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+let = leetcodeCount=0;
+
 app.post("/leetcode", async (req, res) => {
   const { username } = req.body;
+    leetcodeCount++; 
+  console.log(`LeetCode hit count: ${leetcodeCount}`);
 
   try {
     const response = await axios.post("https://leetcode.com/graphql", {
