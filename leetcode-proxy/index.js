@@ -9,6 +9,11 @@ app.use(express.json());
 
 let = leetcodeCount=0;
 
+aoo.get("/",(req,res)=>{
+  console.log("Workking fine");
+  res.send("Bhai kase ho ? 👋");
+})
+
 app.post("/leetcode", async (req, res) => {
   const { username } = req.body;
     leetcodeCount++; 
