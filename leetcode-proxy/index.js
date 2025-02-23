@@ -9,7 +9,7 @@ app.use(express.json());
 
 let = leetcodeCount=0;
 
-aoo.get("/",(req,res)=>{
+app.get("/",(req,res)=>{
   console.log("Workking fine");
   res.send("Bhai kase ho ? 👋");
 })
