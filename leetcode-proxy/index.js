@@ -16,6 +16,7 @@ app.get("/",(req,res)=>{
 
 app.post("/leetcode", async (req, res) => {
   const { username } = req.body;
+  console.log("username search",username);
     leetcodeCount++; 
   console.log(`LeetCode hit count: ${leetcodeCount}`);
 
