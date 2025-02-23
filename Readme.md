@@ -2,6 +2,8 @@
 
 This project is a web application that displays the top performers on Leetcode. It includes both frontend and backend components.
 
+![Live Website](Screenshot%202025-02-23%20224244.png)
+
 ## Tech Stack
 
 - **Frontend**: React, Tailwind CSS
