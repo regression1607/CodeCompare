@@ -87,6 +87,10 @@ leetcode-project/
 └── README.md
 ```
 
+## Deployment
+
+The project is deployed at [https://leetcodecompare.web.app/](https://leetcodecompare.web.app/).
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
